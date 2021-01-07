@@ -10,11 +10,11 @@ public class Matrix {
 		};
         	int[][] in4 = { {1, 5, 9}, {3, 8, 4}, {6, 7, 2} };
         	int[][] in5 = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} };
-        	checkMatrix(in1);  //true
-        	checkMatrix(in2);  //true
-        	checkMatrix(in3);  //true
-        	checkMatrix(in4);  //false
-        	checkMatrix(in5);  //false
+        	System.out.println(checkMatrix(in1));  //true
+        	System.out.println(checkMatrix(in2));  //true
+        	System.out.println(checkMatrix(in3));  //true
+        	System.out.println(checkMatrix(in4));  //false
+        	System.out.println(checkMatrix(in5));  //false
 		// TODO Auto-generated method stub
 
 	}
